@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Icon } from '../../../../components/icon/Icon';
+import { theme } from '../../../../styles/Theme.styled';
 
 type LanguagePropsType = {
   languages: Array<string>;
@@ -28,5 +29,10 @@ const StyledLanguage = styled.div`
   align-items: center;
   gap: 4px;
 `;
-const LanguageSelect = styled.select``;
+const LanguageSelect = styled.select`
+  cursor: pointer;
+  color: ${theme.colors.font};
+  background-color: transparent;
+  border: none;
+`;
 const LanguageOption = styled.option``;
