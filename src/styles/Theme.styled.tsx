@@ -5,4 +5,7 @@ export const theme = {
     font: '#FFFFFF',
     accent: '#DCFD68',
   },
+  padding: {
+    section: '144px 0',
+  },
 };

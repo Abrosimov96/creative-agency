@@ -22,4 +22,6 @@ export const Main = () => {
 
 const StyledMain = styled.section`
   padding-top: 90px;
+  padding-bottom: 120px;
+  margin-bottom: 24px;
 `;

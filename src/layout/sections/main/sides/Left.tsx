@@ -51,6 +51,7 @@ const Text = styled.p`
 const SubscribtionForm = styled.form`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8px;
   padding-left: 40px;
   max-width: 520px;
