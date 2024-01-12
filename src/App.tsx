@@ -4,6 +4,7 @@ import { About } from './layout/sections/about/About';
 import { Main } from './layout/sections/main/Main';
 import { Projects } from './layout/sections/projects/Projects';
 import { Services } from './layout/sections/services/Services';
+import { Testimonial } from './layout/sections/testimonial/Testimonial';
 import { Ticker } from './layout/sections/ticker/Ticker';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Ticker />
       <Projects />
+      <Testimonial />
       <Footer />
     </div>
   );

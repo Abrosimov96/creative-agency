@@ -26,6 +26,7 @@ const StyledSectionTitle = styled.div``;
 const SubTitle = styled.h4`
   color: ${theme.colors.accent};
   text-align: center;
+
   font-size: 18px;
   font-weight: 600;
   line-height: 150%; /* 27px */
