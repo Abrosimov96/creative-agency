@@ -2,6 +2,7 @@ import { Footer } from './layout/footer/Footer';
 import { Header } from './layout/header/Header';
 import { About } from './layout/sections/about/About';
 import { Main } from './layout/sections/main/Main';
+import { Projects } from './layout/sections/projects/Projects';
 import { Services } from './layout/sections/services/Services';
 import { Ticker } from './layout/sections/ticker/Ticker';
 
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <About />
       <Ticker />
+      <Projects />
       <Footer />
     </div>
   );

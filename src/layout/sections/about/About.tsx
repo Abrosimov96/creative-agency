@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { AboutDescription } from '../../../components/AboutDescription';
+import { AboutDescription } from './aboutDescription/AboutDescription';
 import { Container } from '../../../components/Container.styled';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { theme } from '../../../styles/Theme.styled';

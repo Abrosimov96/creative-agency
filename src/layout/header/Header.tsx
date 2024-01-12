@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Container } from '../../components/Container.styled';
 import { FlexWrapper } from '../../components/FlexWrapper.styled';
 
 import { Logo } from '../../components/logo/Logo';
@@ -18,19 +17,20 @@ const menuItems = [
 export const Header = () => {
   return (
     <StyledHeader>
-      <Container>
-        <FlexWrapper align="center" justify="space-between">
-          <Logo />
-          <Menu items={menuItems} />
-          <ActionMenu />
-        </FlexWrapper>
-      </Container>
+      <FlexWrapper align="center" justify="space-between">
+        <Logo />
+        <Menu items={menuItems} />
+        <ActionMenu />
+      </FlexWrapper>
     </StyledHeader>
   );
 };
 
 const StyledHeader = styled.header`
+  max-width: 1790px;
+  width: 100%;
+  margin: 0 auto;
   min-height: 112px;
-  padding: 30px 0;
+  padding: 30px 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 `;

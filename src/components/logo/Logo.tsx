@@ -15,7 +15,12 @@ export const Logo = () => {
   );
 };
 
-const StiledLogo = styled.span``;
+const StiledLogo = styled.span`
+  font-family: 'Syne';
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 100%; /* 105.6px */
+`;
 
 const Link = styled.a`
   display: flex;

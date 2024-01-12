@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Button } from './Button.styled';
-import { Icon } from './icon/Icon';
+import { Button } from '../../../../components/Button.styled';
+import { Icon } from '../../../../components/icon/Icon';
 
 export const AboutDescription = () => {
   return (
@@ -39,7 +39,9 @@ export const AboutDescription = () => {
             <span>Leading the way bright future</span>
           </Item>
         </ListItems>
-        <Button btn="primary">Know More About Us</Button>
+        <div>
+          <Button btn="primary">Know More About Us</Button>
+        </div>
       </DescriptionWrapper>
       <Photo />
     </StyledDescription>
