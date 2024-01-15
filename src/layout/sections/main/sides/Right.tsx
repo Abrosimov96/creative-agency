@@ -29,12 +29,22 @@ export const Right = () => {
             <Card1>
               <TitleCard>Our Team Leaders</TitleCard>
               <CirclesList>
-                <Circle></Circle>
+                <Circle>
+                  <span>8K</span>
+                </Circle>
                 <Circle></Circle>
                 <Circle></Circle>
                 <Circle></Circle>
               </CirclesList>
             </Card1>
+            <MessageWrapper>
+              <Icon
+                iconId="mainMessage"
+                height="50"
+                width="56"
+                viewBox="0 0 56 50"
+              />
+            </MessageWrapper>
             <Image2>Image2</Image2>
           </FlexWrapper>
         </FlexWrapper>
@@ -93,6 +103,12 @@ const IconWrapper = styled.span`
   left: 6px;
 `;
 
+const MessageWrapper = styled.span`
+  position: absolute;
+  top: 245px;
+  left: 240px;
+`;
+
 const Image2 = styled.div`
   border-radius: 135px 135px 8px 8px;
   width: 270px;
@@ -133,8 +149,11 @@ const CirclesList = styled.ul`
 `;
 
 const Circle = styled.li`
-  width: 50px;
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
   background-color: ${theme.colors.accent};
 `;
